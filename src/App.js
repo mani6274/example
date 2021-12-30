@@ -11,7 +11,7 @@ const loading = (
 // Containers
 const TheLayout = React.lazy(() => import("./containers/TheLayout"));
 
-// Pages login and register
+// Pages login 
 const Login = React.lazy(() => import("./views/pages/login/Login"));
 const Register = React.lazy(() => import("./views/pages/register/Register"));
 const Page404 = React.lazy(() => import("./views/pages/page404/Page404"));
